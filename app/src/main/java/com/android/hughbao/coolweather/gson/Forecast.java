@@ -8,13 +8,13 @@ public class Forecast {
     @SerializedName("tmp")
     public Temperature temperature;
 
+    @SerializedName("cond")
+    public More more;
+
     public class Temperature {
         public String max;
         public String min;
     }
-
-    @SerializedName("cond")
-    public More more;
 
     public class More {
         @SerializedName("tet_d")

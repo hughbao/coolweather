@@ -3,10 +3,10 @@ package com.android.hughbao.coolweather.gson;
 import com.google.gson.annotations.SerializedName;
 
 public class Basic {
-    @SerializedName("Name")
+    @SerializedName("city")
     public String cityName;
 
-    @SerializedName("Id")
+    @SerializedName("id")
     public String weatherId;
 
     public Update update;
